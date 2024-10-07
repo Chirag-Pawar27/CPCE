@@ -1,0 +1,43 @@
+#To Calculate the length of transition curve
+V= int(input("Enter the value of design speed: "))
+R= int(input("Enter the value of Radius of curvature: ")
+N= int(input("Enter the value of slope: "))
+W= float(input("Enter the value of width of road including extra widening: ")
+emax=float(input("'enter the value for plain terain:"))
+ecal= (V*V/(225*R))
+print("The value of Super elevation:",ecal) if ecal<emax:
+print(ecal) else:
+print(emax) Ls=(emax*N*W/2)
+print("The length of transition curve:", Ls)
+
+R = int(input(" Constant R: "))
+C = int (input (" Constant C: "))
+importnumpyas geek A = int(input ("Total Data Values for EWL Constant: ")) B = int(input ("Total Data Values for AADT: ")) EWL Constant = []
+AADT = []
+foriin range (1, A+1):
+print ("Enter EWL Constant:")
+A = float (input())
+EWL_Constant. append(A)
+for j in range (1, B+l):
+print ("Enter AADT: ")
+B = float (input ())
+AADT. append (B)
+product = geek. dot (EWL_ Constant, AADT)
+# print(" Dot Product
+Total EWL = product
+print (" Total EWL :", Total EWL)
+print ("EWL after 60 years :", Total EWL*1.6) TI = 1.35*(((1.6* Total_EWL) + ((product) /2)) **0. 11) print ("Traffic Index : ", TI)
+Thickness = 0.166*TI* (99-R)/(C**0. 2)
+print ("Pavement Thickness: ", Thickness, "cm")
+
+P =
+p =
+M = int (input ("Total Number of layers in a given Pavement : "))
+pi = 3.14159
+float (input(" Load in kg: "))
+CBR = []
+float (input (" Tyre pressure kg/cm^2: "))
+foriin range (1, M+1):
+T = ((1.75*P)/ (CBR_value) -(P/(p*pi)) ) **0. 5
+print ("Thickness Above this layer: ", T, "cm")
+print ("Given that bitumen layer of 4 cm")
